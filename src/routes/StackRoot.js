@@ -7,7 +7,8 @@ import MenuAccountSetting from '../screens/MenuAccountSetting'
 import EditEmployeeScreen from '../screens/EditEmployeeScreen';
 import Menu from '../screens/MenuStack';
 import AddEmployeeScreen from '../screens/AddEmployeeScreen';
-import ListEmployeeScreen from '../screens/ListEmployeeScreen'
+import ListEmployeeScreen from '../screens/ListEmployeeScreen';
+import CrudeScreen from '../screens/CrudScreen'
 
 const AccountSetting = createStackNavigator({
     menu : MenuAccountSetting,
@@ -19,7 +20,9 @@ const StackBeranda = createStackNavigator({
     add : AddEmployeeScreen,
     edit : EditEmployeeScreen,
     list : ListEmployeeScreen,
-    detail : EmployeeDetail
+    detail : EmployeeDetail,
+    crud : CrudeScreen,
+
 
 }, {
     headerMode : 'none'

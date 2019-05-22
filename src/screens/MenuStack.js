@@ -20,6 +20,9 @@ class Menu extends Component {
                     <TouchableHighlight onPress={() => this.props.navigation.navigate('list')} style={{height : 100 , width : 100 , borderWidth : 3 , borderColor : 'orange' }}>
                         <Text>List Employee</Text>
                     </TouchableHighlight>
+                    <TouchableHighlight onPress={() => this.props.navigation.navigate('crud')} style={{height : 100 , width : 100 , borderWidth : 3 , borderColor : 'orange' }}>
+                        <Text>CrudeScreen</Text>
+                    </TouchableHighlight>
                 </View>
             </View>
         );
